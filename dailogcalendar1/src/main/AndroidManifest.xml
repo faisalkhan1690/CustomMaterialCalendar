@@ -1,0 +1,14 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="co.clubmahindra.dailogcalendar1">
+
+    <application
+        android:allowBackup="true"
+        android:label="@string/app_name"
+        android:supportsRtl="true">
+        <activity
+            android:name="co.clubmahindra.dailogcalendar1.CalendarDialogActivity"
+            android:theme="@style/AppThemeDialog"/>
+
+    </application>
+
+</manifest>

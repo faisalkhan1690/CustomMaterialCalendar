@@ -1,0 +1,67 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!--Button radius-->
+    <dimen name="radius3dp">3dp</dimen>
+    <dimen name="radius5dp">5dp</dimen>
+    <dimen name="radius7dp">7dp</dimen>
+    <dimen name="radius10dp">10dp</dimen>
+    <dimen name="radius13dp">13dp</dimen>
+    <dimen name="radius20dp">20dp</dimen>
+
+    <!--Strokes-->
+    <dimen name="stroke1px">1px</dimen>
+    <dimen name="stroke2px">2px</dimen>
+    <dimen name="stroke3px">3px</dimen>
+
+    <!--Padding-->
+    <dimen name="padding1dp">1dp</dimen>
+    <dimen name="padding3dp">3dp</dimen>
+    <dimen name="padding5dp">5dp</dimen>
+    <dimen name="padding8dp">8dp</dimen>
+    <dimen name="padding10dp">10dp</dimen>
+    <dimen name="padding15dp">15dp</dimen>
+    <dimen name="padding20dp">20dp</dimen>
+    <dimen name="padding30dp">30dp</dimen>
+    <dimen name="padding40dp">40dp</dimen>
+    <dimen name="padding50dp">50dp</dimen>
+
+    <!--Margin-->
+    <dimen name="margin1dp">1dp</dimen>
+    <dimen name="margin3dp">3dp</dimen>
+    <dimen name="margin5dp">5dp</dimen>
+    <dimen name="margin8dp">8dp</dimen>
+    <dimen name="margin10dp">10dp</dimen>
+    <dimen name="margin20dp">20dp</dimen>
+    <dimen name="margin30dp">30dp</dimen>
+    <dimen name="margin40dp">40dp</dimen>
+
+
+    <!--Font size-->
+    <dimen name="font10dp">10dp</dimen>
+    <dimen name="font12dp">12dp</dimen>
+    <dimen name="font14dp">14dp</dimen>
+    <dimen name="font16dp">16dp</dimen>
+    <dimen name="font18dp">18dp</dimen>
+    <dimen name="font22dp">22dp</dimen>
+    <dimen name="font24p">24dp</dimen>
+    <dimen name="font30p">30dp</dimen>
+    <dimen name="font40p">40dp</dimen>
+
+
+    <!--View size-->
+    <dimen name="widthHeight1dp">1dp</dimen>
+    <dimen name="widthHeight2dp">2dp</dimen>
+    <dimen name="widthHeight10dp">10dp</dimen>
+    <dimen name="widthHeight20dp">20dp</dimen>
+    <dimen name="widthHeight30dp">30dp</dimen>
+    <dimen name="widthHeight50dp">50dp</dimen>
+    <dimen name="widthHeight70dp">70dp</dimen>
+    <dimen name="widthHeight100dp">100dp</dimen>
+
+
+
+
+</resources>

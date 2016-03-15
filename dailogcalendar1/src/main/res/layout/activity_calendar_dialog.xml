@@ -1,0 +1,138 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:minWidth="1000dp"
+    tools:context="co.clubmahindra.dailogcalendar1.CalendarDialogActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content"
+        android:background="@color/white">
+
+        <TextView
+            android:id="@+id/tv_title"
+            style="@style/CustomTextViewGray"
+            android:layout_width="match_parent"
+            android:layout_margin="@dimen/margin20dp"
+            android:gravity="center"
+            android:text="Select check in date" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/widthHeight1dp"
+            android:background="@color/grayLightFont" />
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin5dp"
+            android:layout_marginBottom="@dimen/margin5dp"
+            android:layout_marginLeft="@dimen/margin10dp"
+            android:layout_marginRight="@dimen/margin10dp">
+            <TextView
+                android:id="@+id/tv_pre_month"
+                style="@style/CustomTextViewGray"
+                android:textSize="@dimen/font18dp"
+                android:padding="@dimen/padding10dp"
+                android:layout_alignParentLeft="true"
+                android:text="Sep" />
+            <TextView
+                android:id="@+id/tv_current_month"
+                style="@style/CustomTextViewGray"
+                android:textSize="@dimen/font18dp"
+                android:textColor="@color/blackFont"
+                android:padding="@dimen/padding10dp"
+                android:layout_centerInParent="true"
+                android:text="October 2016" />
+            <TextView
+                android:id="@+id/tv_next_month"
+                style="@style/CustomTextViewGray"
+                android:textSize="@dimen/font18dp"
+                android:padding="@dimen/padding10dp"
+                android:layout_alignParentRight="true"
+                android:text="Nov" />
+        </RelativeLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/widthHeight1dp"
+            android:background="@color/grayLightFont" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="@dimen/margin10dp"
+            android:layout_marginBottom="@dimen/margin10dp"
+            android:layout_marginLeft="@dimen/margin5dp"
+            android:layout_marginRight="@dimen/margin5dp"
+            android:weightSum="7.0">
+
+            <TextView
+                style="@style/CustomTextViewGray"
+                android:layout_width="0dp"
+                android:layout_weight="1.0"
+                android:gravity="center"
+                android:text="@string/sun"
+                android:textColor="@color/blackFont" />
+
+            <TextView
+                style="@style/CustomTextViewGray"
+                android:layout_width="0dp"
+                android:layout_weight="1.0"
+                android:gravity="center"
+                android:text="@string/mon"
+                android:textColor="@color/blackFont" />
+
+            <TextView
+                style="@style/CustomTextViewGray"
+                android:layout_width="0dp"
+                android:layout_weight="1.0"
+                android:gravity="center"
+                android:text="@string/tue"
+                android:textColor="@color/blackFont" />
+
+            <TextView
+                style="@style/CustomTextViewGray"
+                android:layout_width="0dp"
+                android:layout_weight="1.0"
+                android:gravity="center"
+                android:text="@string/wed"
+                android:textColor="@color/blackFont" />
+
+            <TextView
+                style="@style/CustomTextViewGray"
+                android:layout_width="0dp"
+                android:layout_weight="1.0"
+                android:gravity="center"
+                android:text="@string/thu"
+                android:textColor="@color/blackFont" />
+
+            <TextView
+                style="@style/CustomTextViewGray"
+                android:layout_width="0dp"
+                android:layout_weight="1.0"
+                android:gravity="center"
+                android:text="@string/fri"
+                android:textColor="@color/blackFont" />
+
+            <TextView
+                style="@style/CustomTextViewGray"
+                android:layout_width="0dp"
+                android:layout_weight="1.0"
+                android:gravity="center"
+                android:text="@string/sat"
+                android:textColor="@color/blackFont" />
+        </LinearLayout>
+
+        <co.clubmahindra.dailogcalendar1.CustomViewPager
+            android:id="@+id/pager"
+            android:layout_marginLeft="@dimen/margin5dp"
+            android:layout_marginRight="@dimen/margin5dp"
+            android:layout_marginBottom="@dimen/margin20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+</LinearLayout>

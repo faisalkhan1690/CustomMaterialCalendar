@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">CalenderFinal</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="click_to_open_calendar">Click to Open calendar</string>
+</resources>

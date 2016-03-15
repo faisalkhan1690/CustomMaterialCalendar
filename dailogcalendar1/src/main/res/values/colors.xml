@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Theme colors-->
+    <color name="colorPrimary">#0CB7E6</color>
+    <color name="colorPrimaryDark">#089AC2</color>
+    <color name="colorAccent">#F8992D</color>
+
+    <!--App colors-->
+    <color name="white">#FFFFFF</color>
+    <color name="screenBackground">#FFFFFF</color>
+    <color name="transparentBackground">#00000000</color>
+    <color name="transparent50">#80000000</color>
+    <color name="darkBlue">#3B5998</color>
+    <color name="iconRed">#FB4F4F</color>
+    <color name="iconPurple">#604a7B</color>
+    <color name="iconWhite">#C0C0C0</color>
+    <color name="iconBlue">#0DBAE4</color>
+
+
+
+    <!--Font Colors-->
+    <color name="whiteFont">#FFFFFF</color>
+    <color name="grayFont">#949499</color>
+    <color name="darkGrayFont">#5D6470</color>
+    <color name="grayLightFont">#B9BDC0</color>
+    <color name="blackFont">#000000</color>
+    <color name="grayDeepLightFont">#CBD0D4</color>
+    <color name="lightBlackFont">#5B6771</color>
+    <color name="lightRedFont">#F47168</color>
+
+    <!--Border color  -->
+    <color name="grayBorder">#CAD2D8</color>
+    <color name="redBorder">#F13928</color>
+
+    <!--Button colors-->
+    <color name="orangeBackground">#F8992D</color>
+
+
+</resources>
