@@ -12,7 +12,7 @@ intent.putExtra(CalendarConstant.PAGE_TITLE,"Select check in date");
 startActivityForResult(intent, CalendarConstant.REQUEST_CODE);
 ```
 
-calenderData list is a array list for dot blow date. if dots are not requried then no need to send this parameter in intent.
+calenderDatais a array list for dot blow date. if dots are not requried then no need to send this parameter in intent.
 
 ```java
 List<CalenderDayModel> alenderData=new ArrayList<>();
