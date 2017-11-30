@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/CalenderFinal.iml" filepath="$PROJECT_DIR$/CalenderFinal.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/CustomMaterialCalendar.iml" filepath="$PROJECT_DIR$/.idea/CustomMaterialCalendar.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/dailogcalendar1/dailogcalendar1.iml" filepath="$PROJECT_DIR$/dailogcalendar1/dailogcalendar1.iml" />
     </modules>

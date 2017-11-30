@@ -13,6 +13,7 @@
             <option value="$PROJECT_DIR$/dailogcalendar1" />
           </set>
         </option>
+        <option name="resolveModulePerSourceSet" value="false" />
       </GradleProjectSettings>
     </option>
   </component>
